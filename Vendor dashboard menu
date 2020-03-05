@@ -1,0 +1,63 @@
+<!-- 
+
+1. login to wordpress as admin
+2. go to Appearance
+3. go to Customise 
+4. go Additional css 
+
+5.ADD 
+
+li.NAME OF MENU {
+	display:none !important;
+}
+
+6. Publish and refresh browser to view changes you made :)
+
+-->
+
+
+in the vendor dashboard , All the menu's Currently available are ::
+ 
+    dashboard
+    products
+    orders
+    reports
+    reviews
+    withdraw
+    return-request
+    followers
+    tools
+    support
+    settings
+    visit-store
+	  edit-ccount
+	  log-out
+ 
+ 
+ To hide a menu from the dashboard, 
+ 
+ example ::if i want to hide ->  
+ 
+ support   
+ followers   
+ tools  
+ reviews  
+ 
+******* add the following code on additional css section. *******
+ 
+ 
+li.support{
+	display:none !important;
+}
+
+li.followers{
+	display:none !important;
+}
+
+li.tools{
+	display:none !important;
+}
+
+li.reviews{
+	display:none !important;
+}
